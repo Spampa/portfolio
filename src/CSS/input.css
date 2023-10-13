@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    * {
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Source Code Pro', monospace;
+    }
+
+    h1 {
+        font-size: theme('fontSize.4xl');
+        font-weight: 600;
+    }
+
+    h2 {
+        font-size: theme('fontSize.3xl');
+        font-weight: 500;
+    }
+
+    h3 {
+        font-size: theme('fontSize.2xl');
+        font-weight: 400;
+    }
+
+    h4 {
+        font-size: theme('fontSize.xl');
+        font-weight: 300;
+    }
+
+    h5 {
+        font-size: theme('fontSize.lg');
+        font-weight: 200;
+    }
+    
+}
+
+/*responsive*/
+@media screen and (max-width: 768px) {
+    h1{
+        font-size: theme('fontSize.3xl');
+    }
+
+    h2 {
+        font-size: theme('fontSize.2xl');
+    }
+
+    h3 {
+        font-size: theme('fontSize.lg');
+    }
+
+    h4 {
+        font-size: theme('fontSize.lg');
+    }
+
+    h5 {
+        font-size: theme('fontSize.base');
+    }
+
+
+}

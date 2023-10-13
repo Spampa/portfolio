@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicolò Spampatti</title>
+    <link rel="stylesheet" href="./CSS/output.css">
+    <link rel="stylesheet" href="./CSS/input.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/icon.png" type="image/x-icon">    
+</head>
+
+<body class="bg-light-black">
+    <div id="whoAmI"></div>
+    <header class="sticky top-0 pt-5 md:p-5 bg-dark-black text-light-white ease-out duration-100 ">
+        <div class="flex flex-col md:flex-row md:place-content-between">
+            <div class="text-center pb-4 md:pb-0">
+                <h1 class="text-2xl">Nicolò Spampatti</h1>
+            </div>
+            <div id="linkHead" class="md:gap-8 grid grid-cols-3 text-center md:flex md:flex-row md:place-content-end">
+                <a href="#whoAmI">
+                    <h3
+                        class="border-b-4 border-dark-black hover:border-blue md:border-none md:hover:underline md:hover:bg-dark-blue p-1">
+                        About</h3>
+                </a>
+                <a href="#skills">
+                    <h3
+                        class="border-b-4 border-dark-black hover:border-blue md:border-none md:hover:underline md:hover:bg-dark-blue p-1">
+                        Skills</h3>
+                </a>
+                <a href="#contactMe">
+                    <h3
+                        class="border-b-4 border-dark-black hover:border-blue md:border-none md:hover:underline md:hover:bg-dark-blue p-1">
+                        Contact Me</h3>
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="grid grid-cols-2 p-1 md:p-5 xl:grid-cols-4">
+        <div class="hidden xl:block"></div>
+        <div class="col-span-2 p-3 flex flex-col gap-7 md:gap-20">
+            <!-- Who Am I -->
+            <div class="grid grid-cols-1">
+                <div>
+                    <h2 class="text-blue">#include &lt;Who Am I?&gt;</h2>
+                    <div class="flex flex-col gap-5 text-light-white leading-5 md:leading-7 border-l-2 border-grey pl-6">
+                        <div class="grid md:grid-cols-2">
+                            <div class="flex items-center">
+                                <h3 class="inline-block pr-4">
+                                    Sono Nicolò Spampatti, un appassionato italiano del mondo della tecnologia. Attualmente, mi immergo nel campo dell'informatica 
+                                    come studente determinato presso
+                                    <a href="https://www.itispaleocapa.edu.it/" class="text-red">I.T.I.S Paleocapa (BG)</a>.
+                                </h3>
+                            </div>
+                            <div class="my-2">
+                                <img class=" rounded-md object-cover h-32 md:h-full w-full" src="./assets/images/me.jpg" alt="Me">
+                            </div>
+                        </div>
+                        <h3>
+                            Negli ultimi anni ho intrapreso un viaggio all'interno dell'affascinante 
+                            mondo dell'informatica. Con una curiosità insaziabile e un amore innato per la risoluzione dei problemi, 
+                            mi sono impegnato in un percorso di apprendimento e crescita continua in questo campo dinamico.
+                        </h3>
+                        <h3>
+                            La mia formazione presso l'I.T.I.S. Paleocapa mi ha fornito una solida base in vari aspetti dell'informatica.
+                            Dai linguaggi di programmazione agli algoritmi, dallo sviluppo di software alle tecnologie all'avanguardia, 
+                            ho abbracciato con entusiasmo i diversi aspetti di questa disciplina. La guida dei miei mentori e 
+                            l'ambiente collaborativo nella mia scuola hanno contribuito in modo determinante a plasmare la mia 
+                            comprensione e le mie competenze.
+                        </h3>
+                        <h3>
+                            Mentre navigo nell'entusiasmante intersezione tra tecnologia e creatività, sono entusiasta di presentare 
+                            il mio portfolio, una raccolta curata dei miei successi, sforzi e progetti. Questo portfolio riflette 
+                            la mia dedizione e il mio impegno inarrestabile nel contribuire in modo significativo 
+                            al mondo dell'informatica.
+                        </h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="relative bottom-28 md:bottom-10" id="skills"></div>
+            <!-- Skills -->
+            <div>
+                <h2 class="text-pink">switch<span class="text-violet">(</span><span
+                        class="text-light-green">Skills</span><span class="text-violet">)</span></h2>
+                <h2 class="text-pink">{</h2>
+                <div class="border-l-2 border-dark-grey pl-6">
+                    <div class="flex flex-col gap-4 md:gap-9">
+                        <div>
+                            <h2 class="text-light-green"><span class="text-pink">case: </span>
+                                <select class="bg-dark-black outline-none pr-3" name="skills" id="skillSelector"></select>
+                            </h2>
+                            <div class="border-l-2 border-grey pl-6">
+                                <h3 class="text-light-white leading-5 md:leading-7" id="skillDescription">
+                                </h3>
+                                <h2 class="text-pink">break<span class="text-light-white">;</span></h2>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <h2 class="text-pink">}</h2>
+            </div>
+
+            <!-- Contact Me -->
+            <div id="contactMe">
+                <h2 class="text-light-white py-2">Contact Me</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+
+                    <a href="https://www.instagram.com/spampa._/">
+                        <div class="p-3 text-light-white border-2 border-solid border-light-white ease-in-out duration-100 hover:bg-gradient-to-r from-red to-blue hover:rounded-xl">
+                            <div class="flex flex-row">
+                                <div>
+                                    <h3>Instagram</h3>
+                                    <h2>spampa._</h2>
+                                </div>
+                            </div>
+
+                        </div>
+                    </a>
+
+                    <a href="https://t.me/Spampega">
+                        <div class="p-3 text-light-white border-2 border-solid border-light-white ease-in-out duration-100 hover:bg-gradient-to-r from-blue to-light-blue hover:rounded-xl">
+                            <div class="flex flex-row">
+                                <div>
+                                    <h3>Telegram</h3>
+                                    <h2>Spampega</h2>
+                                </div>
+                            </div>
+
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/Spampa">
+                        <div class="p-3 text-light-white border-2 border-solid border-light-white ease-in-out duration-100 hover:bg-gradient-to-r from-dark-blue to-dark-grey hover:rounded-xl">
+                            <div class="flex flex-row">
+                                <div>
+                                    <h3>Github</h3>
+                                    <h2>Spampa</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="mailto:nicolo.spampa@gmail.com">
+                        <div class="p-3 text-light-white border-2 border-solid border-light-white ease-in-out duration-100 hover:bg-gradient-to-r from-pink to-green hover:rounded-xl">
+                            <div class="flex flex-row">
+                                <div>
+                                    <h3>Mail</h3>
+                                    <h3 class="font-semibold text-[1.4rem]">nicolo.spampa@gmail.com</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://twitter.com/Spampa_">
+                        <div class="p-3 text-light-white border-2 border-solid border-light-white ease-in-out duration-100 hover:bg-gradient-to-r from-dark-grey to-grey hover:rounded-xl">
+                            <div class="flex flex-row">
+                                <div>
+                                    <h3>X</h3>
+                                    <h2>Spampa_</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        <div class="hidden xl:block"></div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
