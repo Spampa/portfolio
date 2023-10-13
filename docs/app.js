@@ -6,7 +6,7 @@ let click = false;
 //when the user scrolls
 window.onscroll = () => {
     if(!click){
-        if(window.scrollY > Y && window.scrollY > 20){
+        if(window.scrollY > Y + 20 && window.scrollY > 20){
             header.classList.add('-translate-y-full');
         }
         else if(window.scrollY < Y){
