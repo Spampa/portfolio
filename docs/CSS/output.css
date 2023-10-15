@@ -437,6 +437,7 @@ video {
 * {
   font-family: 'Roboto', sans-serif;
   font-family: 'Source Code Pro', monospace;
+  scroll-behavior: smooth;
 }
 
 h1 {
@@ -701,11 +702,6 @@ h5 {
 .bg-dark-black {
   --tw-bg-opacity: 1;
   background-color: rgb(24 24 24 / var(--tw-bg-opacity));
-}
-
-.bg-red {
-  --tw-bg-opacity: 1;
-  background-color: rgb(195 96 45 / var(--tw-bg-opacity));
 }
 
 .bg-light-black {
