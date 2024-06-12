@@ -5,10 +5,13 @@ import Skills from "@/components/skills/skills";
 import Projects from "@/components/projects/projects";
 import ContactMe from "@/components/contactme/contactMe";
 
-import Link from "next/link";
-
 import { Source_Code_Pro } from "next/font/google"
 const sourceCodePro = Source_Code_Pro({ subsets: ["latin"] });
+
+export const metadata = {
+  title: "Nicolò Spampatti | Portfolio",
+  description: "Welcome to my portfolio",
+};
 
 export default function Home() {
   return (
