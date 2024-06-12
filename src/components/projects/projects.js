@@ -5,7 +5,7 @@ export default function Projects() {
     return(
         <div className="bg-green-400 min-h-screen py-14 flex items-center" id="projects">
             <div className="container flex flex-col gap-2">
-                <h2 className="text-3xl font-bold ">Projects</h2>
+                <h2 className="text-2xl md:text-3xl font-bold ">Projects</h2>
                 <div className="grid grid-sols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                     <div className="grid grid-rows-2 border-green-800 border-2 rounded-md">
                         <div className="bg-green-100 rounded-t-md p-2 min-h-36 flex items-center place-content-center">

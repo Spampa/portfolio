@@ -11,6 +11,7 @@ const sourceCodePro = Source_Code_Pro({ subsets: ["latin"] });
 export const metadata = {
   title: "Nicolò Spampatti | Portfolio",
   description: "Welcome to my portfolio",
+  image: "/favicon.ico",
 };
 
 export default function Home() {
